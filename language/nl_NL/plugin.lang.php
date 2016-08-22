@@ -20,10 +20,10 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['Action when spam is detected:'] = 'Actie indien spam wordt gedetecteerd:';
+$lang['Action when spam is detected:'] = 'Actie als spam wordt ontdekt:';
 $lang['Akismet API Key:'] = 'Akismet API sleutel:';
-$lang['Akismet configuration'] = 'Akismet configuratie';
-$lang['Akismet has caught'] = 'Akismet heeft gedetecteerd';
+$lang['Akismet configuration'] = 'Configuratie Akismet ';
+$lang['Akismet has caught'] = 'Akismet heeft ontdekt';
 $lang['More statistics on'] = 'Meer statistieken op';
 $lang['Signup for a personal usage key here:'] = 'Meld je hier aan voor een sleutel voor persoonlijk gebruik:';
 $lang['Test your configuration'] = 'Test je configuratie';
@@ -32,9 +32,8 @@ $lang['You need to define the Akismet api key'] = 'Je moet de Akismet API sleute
 $lang['Your Akismet API key is not valid.'] = 'Je Akismet sleutel is niet geldig.';
 $lang['akismet site'] = 'akismet site';
 $lang['comments'] = 'commentaar';
-$lang['moderate'] = 'modereren';
+$lang['moderate'] = 'modereren (matigen)';
 $lang['out of'] = 'van de';
 $lang['reject'] = 'afwijzen';
 $lang['reset counters'] = 'tellers terugzetten';
 $lang['spam comments'] = 'spam commentaar';
-?>
