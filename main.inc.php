@@ -5,6 +5,7 @@ Description: Uses Akismet online service to check comments agains spam
 Plugin URI: http://piwigo.org/ext/extension_view.php?eid=192
 Author: rvelices
 Author URI: http://www.modusoptimus.com
+Has Settings: true
 */
 
 define('AKIS_DIR' , basename(dirname(__FILE__)));
@@ -49,7 +50,7 @@ function akismet_init()
 	$template->smarty->register_prefilter('akismet_prefilter_comment_form');
 }
 
-function akismet_prefilter_comment_form($source, $smarty)
+function akismet_prefilter_comment_form($source)
 {
 	if ( ($pos=strpos($source, '<textarea'))!==false
 		&& ($pos2=strpos($source, 'comment', $pos))!==false
