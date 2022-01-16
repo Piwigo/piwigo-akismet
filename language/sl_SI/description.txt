@@ -1,0 +1,1 @@
+Uporablja spletno storitev Akismet za preverjanje nezaželjenih komentarjev
